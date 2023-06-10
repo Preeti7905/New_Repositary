@@ -10,7 +10,7 @@ for i in range(0,len(question)):
     if(reply == questions[-1]):
         print(f"Correct answer , you have won Rs.{levels[i]}")
         if(i == 4):
-            money = 10000
+            money = 20000
         elif( i == 9):
             money = 320000
         elif( i == 14):
