@@ -8,7 +8,7 @@ for i in range(0,len(question)):
     print(f"c. {questions[3]}       d. {questions[4]}  ")
     reply=int(input("Enter your answer:(1-4) "))
     if(reply == questions[-1]):
-        print(f"Correct answer , you have won Rs.{levels[i]}")
+        print(f"Correct answer!!! you have won Rs.{levels[i]}")
         if(i == 4):
             money = 20000
         elif( i == 9):
